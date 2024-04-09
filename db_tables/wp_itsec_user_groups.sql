@@ -1,0 +1,7 @@
+/* CUSTOM VARS START */
+/* REAL_TABLE_NAME: `wp_itsec_user_groups`; */
+/* PRE_TABLE_NAME: `1712603169_wp_itsec_user_groups`; */
+/* CUSTOM VARS END */
+
+CREATE TABLE IF NOT EXISTS `1712603169_wp_itsec_user_groups` ( `group_id` char(36) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci NOT NULL, `group_label` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '', `group_roles` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci, `group_canonical` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci, `group_users` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci, `group_min_role` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci DEFAULT NULL, `group_created_at` datetime DEFAULT NULL, PRIMARY KEY (`group_id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+INSERT INTO `1712603169_wp_itsec_user_groups` (`group_id`, `group_label`, `group_roles`, `group_canonical`, `group_users`, `group_min_role`, `group_created_at`) VALUES ('247ba932-930a-4588-9d57-da650dbd9e04','Contributors','','contributor','','','2024-03-24 16:13:29'),('6c0410c2-37e5-48d8-bca9-cd0ac61c1b68','Subscribers','','subscriber','','','2024-03-24 16:13:29'),('7eaeb405-1cb3-4ced-b40f-6feb29d8f5d3','Administrators','','administrator','','','2024-03-24 16:13:29'),('941ae5da-b797-4962-bba1-50ecf4d8e730','Authors','','author','','','2024-03-24 16:13:29'),('ddbff7fc-61ce-48f0-a0b9-0e6619adf3f8','Editors','','editor','','','2024-03-24 16:13:29');
